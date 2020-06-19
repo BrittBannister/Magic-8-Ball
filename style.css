@@ -10,7 +10,6 @@ h1 {
 body {
     background-image: radial-gradient(beige, lightblue);
     font-family: 'Shadows Into Light', cursive;
-    /* background-image: url(https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=6500&w=1240);*/
 }
 
 #content {

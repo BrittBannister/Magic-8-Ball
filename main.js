@@ -1,6 +1,9 @@
-let answers = ["yes", "no", "maybe so", "ask again later", "don't get your hopes up",
-    "are you sure you want to know the answer to that?", "definitely",
-    "not likely", "doubtful"
+let answers = ["It is certain", "Reply hazy, try again", "Don’t count on it",
+    "It is decidedly so", "Ask again later", "My reply is no",
+    "Without a doubt", "Better not tell you now", "My sources say no",
+    "Yes definitely", "Cannot predict now", "Outlook not so good",
+    "You may rely on it", "Concentrate and ask again", "Very doubtful",
+    "As I see it, yes", "Most likely", "Outlook good", "Yes", "Signs point to yes"
 ]
 
 
