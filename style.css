@@ -28,27 +28,29 @@ body {
     margin-top: 30px;
 }
 
-.answer {
-    background-color: rgb(63, 62, 62);
-    border: 1px solid rgb(63, 62, 62);
-    border-radius: 50%;
-    width: 50%;
-    height: 50%;
-    margin: 25% auto;
-}
-
 #eight {
-    font-size: 60px;
-    color: white;
+    font-size: 100px;
+    color: black;
+    font-weight: bolder;
     margin: 20% auto;
 }
 
 #answer {
     padding: 23px;
-    color: lightblue;
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 37px;
+    color: black;
     font-family: 'Shadows Into Light', cursive;
+}
+
+.answer {
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(63, 62, 62);
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+    margin: 25% auto;
 }
 
 #question {
