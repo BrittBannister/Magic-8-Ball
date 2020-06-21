@@ -1,13 +1,16 @@
+https://brittneybannister.gitlab.io/gameofchance
+
+
 Game Of Chance
 Magic 8 Ball
 
 
 1. Get question fron user.
-    -input area for questions
+    -input area for questions or just have them as themselves.
 
 2. Generate an answer.
     -answers are random
-        -random.math floor
+        -math.floor math.random
     -have a variable storing possible answers
 
 3. Display answer to user.

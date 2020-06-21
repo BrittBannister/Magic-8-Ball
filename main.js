@@ -6,21 +6,6 @@ let answerChoices = ["It is certain", "Reply hazy, try again", "Don’t count on
     "As I see it, yes", "Most likely", "Outlook good", "Yes", "Signs point to yes"
 ]
 
-
-// window.onload = function() {
-//     let eight = document.getElementById("eight");
-//     let answer = document.getElementById("answer");
-//     let eightball = document.getElementById("ball");
-
-//     eightball.addEventListener("click", function() {
-//         eight.innerHTML = "";
-//         var num = Math.floor(Math.random() * Math.floor(answers.length));
-//         answer.innerHTML = answers[num];
-//     });
-// };
-
-
-
 document.addEventListener("click", function() {
     eight.innerHTML = "";
     let num = Math.floor(Math.random() * Math.floor(answerChoices.length));
