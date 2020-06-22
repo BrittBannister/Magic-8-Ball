@@ -6,8 +6,10 @@ let answerChoices = ["It is certain", "Reply hazy, try again", "Don’t count on
     "As I see it, yes", "Most likely", "Outlook good", "Yes", "Signs point to yes"
 ]
 
-document.addEventListener("click", function() {
+document.getElementById("answer").addEventListener("click", myFunction);
+
+function myFunction() {
     eight.innerHTML = "";
     let num = Math.floor(Math.random() * Math.floor(answerChoices.length));
     document.getElementById("answer").innerHTML = answerChoices[num];
-});
+}
